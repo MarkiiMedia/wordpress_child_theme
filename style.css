@@ -1,0 +1,44 @@
+/**
+Theme Name: Astra-child
+Author: Brainstorm Force
+Author URI: http://wpastra.com/about/
+Description: Astra is the fastest, fully customizable & beautiful theme suitable for blogs, personal portfolios and business websites. It is very lightweight (less than 50KB on frontend) and offers unparalleled speed. Built with SEO in mind, Astra comes with schema.org code integrated so search engines will love your site. Astra offers plenty of sidebar options and widget areas giving you a full control for customizations. Furthermore, we have included special features and templates so feel free to choose any of your favorite page builder plugin to create pages flexibly. Some of the other features: # WooCommerce Ready # Responsive # Compatible with major plugins # Translation Ready # Extendible with premium addons # Regularly updated # Designed, Developed, Maintained & Supported by Brainstorm Force. Looking for a perfect base theme? Look no further. Astra is fast, fully customizable and beautiful theme!
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: astra-child
+Template: astra
+*/
+
+/* Overskrifter rammes her - test bare så vi er sikker på det virker med child theme */
+.entry-title {
+	background-color: deeppink;
+}
+
+
+/* Widget right bar overskrift på nyhedssiden midterstilles her */
+.widget-title {
+	text-align: center;
+}
+
+/* margin i top og ingen i bottom på forside h1 (seneste nyheder:) */
+.entry-content h1 {
+	margin-top: 80px;
+	margin-bottom: 0;
+}
+
+
+/* Outline på billede-cover tekst på forside (MÅSKE GRIMT??) */
+.wp-block-cover-text {
+color: black;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+
+/* Gemmer teksten, den skal istedet bare rettes til dansk i plugin css'en 
+.nf-form-fields-required {
+	display: none;
+}
+*/
